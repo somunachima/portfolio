@@ -28,13 +28,18 @@
   flex-grow: 0;
   .nav-item {
     font-weight: 300;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5px;
+    // padding-right: 15px;
     align-items: center;
+  }
+  .nav-item.active {
+    padding-left: 3px;
+
   }
   .nav-item i {
     align-items: center;
     padding-top: 12px;
+    padding-left: 15px;
   }
 }
 
