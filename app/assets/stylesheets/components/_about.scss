@@ -53,22 +53,25 @@ body {
   flex-wrap: wrap;
   .fa-solid {
     font-size: 90px;
+    vertical-align: middle;
   }
   .icon-img {
     text-align: center;
     justify-content: center;
-    max-width: 230px;
+    width: 230px;
+    vertical-align: middle;
   }
   .about-profile {
-    max-width: 230px;
+    width: 230px;
+    vertical-align: middle;
   }
 }
 .column {
   max-width: 25%;
   flex: 25%;
-  vertical-align: middle;
   .fa-solid {
     font-size: 90px;
+    vertical-align: middle;
   }
   .icon-img {
     text-align: center;
