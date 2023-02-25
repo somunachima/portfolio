@@ -1,9 +1,9 @@
 * {
-  // box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  // margin: 0;
+  margin: 0;
 }
 
 //CONTAINERS
@@ -51,8 +51,6 @@ body {
   padding-right: 45px;
   display: flex;
   flex-wrap: wrap;
-  // justify-content: left;
-  // flex-direction: row;
   .fa-solid {
     font-size: 90px;
   }
@@ -69,8 +67,6 @@ body {
   max-width: 25%;
   flex: 25%;
   vertical-align: middle;
-  // flex-direction: column;
-  // gap: 20px;
   .fa-solid {
     font-size: 90px;
   }
@@ -85,27 +81,6 @@ body {
     vertical-align: middle;
   }
 }
-// .column {
-//   max-width: 100%;
-//   display: flex;
-//   flex: 50%;
-//   flex-direction: row;
-//   gap: 20px;
-//   vertical-align: middle;
-//   .fa-solid {
-//     font-size: 90px;
-//   }
-//   .icon-img {
-//     text-align: center;
-//     justify-content: center;
-//     max-width: 230px;
-//     vertical-align: middle;
-//   }
-//   .about-profile {
-//     max-width: 230px;
-//     vertical-align: middle;
-//   }
-// }
 
 //SLOGAN
 
@@ -155,10 +130,7 @@ body {
 //ABOUT
 .column {
   width: 100%;
-  // flex: 25%;
-  // flex-direction: column;
-  // // margin-right: 15px;
-  // vertical-align: middle;
+
   h3 {
     color: #0F1014;
     font-size: 18px;
@@ -196,13 +168,9 @@ body {
 //PICTURES
 .column {
   width: 100%;
-  // flex: 25%;
-  // flex-direction: column;
   margin-top: 20px;
-  // vertical-align: middle;
+
   .about-profile {
-    // display: flex;
-    // flex-direction: column;
     margin-right: 0px;
   }
   h3 {
@@ -228,11 +196,7 @@ body {
 //LIKES
 .column {
   width: 100%;
-  // flex: 25%;
-  // flex-direction: column;
   margin-top: 20px;
-  // margin-right: 15px;
-  // vertical-align: middle;
   h3 {
     color: #0F1014;
     font-size: 18px;
@@ -267,11 +231,8 @@ body {
 //LEARNING
 .column {
   width: 100%;
-  // flex: 25%;
-  // flex-direction: column;
   margin-top: 20px;
-  // margin-right: 15px;
-  // vertical-align: middle;
+
   h3 {
     color: #0F1014;
     font-size: 18px;
@@ -318,41 +279,6 @@ body {
     flex: 100%;
     max-width: 100%;
   }
-  // .container-right {
-  //   flex: 100%;
-  //   max-width: 100%;
-  //   vertical-align: middle;
-  //   display: flex;
-  //   justify-content: left;
-  //   flex-direction: column;
-  // }
-
-  // .som-detes {
-  //   display: flex;
-  //   justify-content: left;
-  //   flex-direction: column;
-  // }
-
-  // .background {
-  //   flex: 100%;
-  //   max-width: 100%;
-  //   vertical-align: middle;
-  // }
-  // .pictures {
-  //   flex: 100%;
-  //   max-width: 100%;
-  //   vertical-align: middle;
-  // }
-  // .likes {
-  //   flex: 100%;
-  //   max-width: 100%;
-  //   vertical-align: middle;
-  // }
-  // .learning {
-  //   flex: 100%;
-  //   max-width: 100%;
-  //   vertical-align: middle;
-  // }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -362,42 +288,6 @@ body {
     max-width: 100%;
   }
 
-  // .container-left {
-  //   flex: 100%;
-  //   max-width: 100%;
-  //   vertical-align: middle;
-  // }
-  // .container-right {
-  //   flex: 100%;
-  //   max-width: 100%;
-  //   vertical-align: middle;
-  // }
-  // .som-detes {
-  //   display: flex;
-  //   justify-content: left;
-  //   flex-direction: column;
-  // }
-
-  // .background {
-  //   flex: 100%;
-  //   max-width: 100%;
-  //   vertical-align: middle;
-  // }
-  // .pictures {
-  //   flex: 100%;
-  //   max-width: 100%;
-  //   vertical-align: middle;
-  // }
-  // .likes {
-  //   flex: 100%;
-  //   max-width: 100%;
-  //   vertical-align: middle;
-  // }
-  // .learning {
-  //   flex: 100%;
-  //   max-width: 100%;
-  //   vertical-align: middle;
-  // }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -407,16 +297,6 @@ body {
     max-width: 50%;
   }
 
-  // .container-left{
-  //   flex: 50%;
-  //   gap: 20px;
-  //   vertical-align: middle;
-  // }
-  // .container-right {
-  //   flex: 50%;
-  //   gap: 20px;
-  //   vertical-align: middle;
-  // }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -426,16 +306,6 @@ body {
     max-width: 25%;
   }
 
-  // .container-left{
-  //   flex: 50%;
-  //   gap: 20px;
-  //   vertical-align: middle;
-  // }
-  // .container-right {
-  //   flex: 50%;
-  //   gap: 20px;
-  //   vertical-align: middle;
-  // }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -444,9 +314,5 @@ body {
     flex: 25%;
     max-width: 25%;
   }
-  // .container-right {
-  //   flex: 25%;
-  //   max-width: 25%;
-  //   vertical-align: middle;
-  // }
+
 }
