@@ -18,7 +18,7 @@
       <div class="top-back">
         <div class="section-title">
           <div class="profile-img-section">
-            <%= cl_image_tag "som", height: 300, width: 230 %>
+            <%= image_tag asset_path('som.png'), height: 300, width: 230 %>
           </div>
           <div class="slogan">
             <h1 >
@@ -44,7 +44,7 @@
         <div>
           <a href="https://somunachima.github.io/threejs-donut/" target="_blank">
             <h2 class="project-name">Go Donuts</h2>
-            <p class="project-tags">Animation, 3D, Web, Branding, Lifestyle</p>
+            <p class="project-tags">Animation, 3D, Web, Branding</p>
             <div class="project-card">
               <%= image_tag asset_path('go_donuts.png'), height: 310, width: 505 %>
             </div>
@@ -55,7 +55,25 @@
             <h2 class="project-name">Get Your Own Teaching Assistant</h2>
             <p class="project-tags">Web, Edtech</p>
             <div class="project-card">
-              <%= cl_image_tag "gyota", height: 310, width: 505 %>
+              <%= image_tag asset_path('gyota.png'), height: 310, width: 505 %>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="https://somunachima.github.io/3D-tesla-animation/" target="_blank">
+            <h2 class="project-name">Tesla Advert</h2>
+            <p class="project-tags">Animation, 3D, Branding, Lifestyle</p>
+            <div class="project-card">
+              <%= image_tag asset_path('tesla.png'), height: 310, width: 505 %>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/somunachima/3d-sphere" target="_blank">
+            <h2 class="project-name">Give it a spin</h2>
+            <p class="project-tags">3D, Animation, Interactive</p>
+            <div class="project-card">
+              <%= image_tag asset_path('sphere.png'), height: 310, width: 505 %>
             </div>
           </a>
         </div>
@@ -65,6 +83,15 @@
             <p class="project-tags">Web, Entertainment</p>
             <div class="project-card-movie">
               <i class="fa-solid fa-clapperboard"></i>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/somunachima/filter-animation" target="_blank">
+            <h2 class="project-name">Filter Animation</h2>
+            <p class="project-tags">Animation, API</p>
+            <div class="project-card">
+              <%= image_tag asset_path('filter.png'), height: 310, width: 505 %>
             </div>
           </a>
         </div>
