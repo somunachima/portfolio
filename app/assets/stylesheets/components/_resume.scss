@@ -166,6 +166,7 @@ body {
 .bottom-right {
   display: flex;
   flex-direction: column;
+  margin-left: 50px;
 }
 
 //EDUCATION
@@ -176,7 +177,7 @@ body {
   .edu-sub {
     display: flex;
     justify-content: space-between;
-    width: 500px;
+    max-width: 500px;
   }
   .wagon {
     display: flex;
@@ -210,7 +211,7 @@ body {
   }
   .manc-text {
     margin-bottom: 0px;
-    width: 455px;
+    max-width: 455px;
   }
   .manc-title {
     display: flex;
@@ -233,7 +234,7 @@ body {
   }
   .smb-text {
     margin-bottom: 0px;
-    width: 455px;
+    max-width: 455px;
   }
   .smb-title {
     display: flex;
@@ -256,7 +257,7 @@ body {
   }
   .ijpp-text {
     margin-bottom: 0px;
-    width: 455px;
+    max-width: 455px;
   }
   .ijpp-title {
     display: flex;
@@ -287,7 +288,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: left;
-  width: 500px;
+  max-width: 500px;
   min-height: 150px;
   margin-bottom: 10px;
   h3 {
@@ -302,10 +303,10 @@ body {
   display: flex;
   flex-direction: column;
   text-align: left;
-  width: 500px;
+  max-width: 500px;
   min-height: 150px;
-  margin-left: 50px;
   margin-bottom: 10px;
+  margin-left: 50px;
   h3 {
     font-size: 18px;
   }
@@ -314,13 +315,13 @@ body {
   display: flex;
   .skills-title {
     font-weight: 350;
-    width: 70px
+    max-width: 70px
   }
   ul {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-    width: 540px;
+    max-width: 540px;
     padding-left: 12px;
   }
   li {
@@ -338,7 +339,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: left;
-  width: 1030px;
+  max-width: 1030px;
   min-height: 150px;
   margin-bottom: 15px;
   h3 {
@@ -357,7 +358,7 @@ body {
   }
   .proj-info {
     margin-bottom: 8px;
-    width: 400px;
+    max-width: 400px;
   }
   .proj-text {
     margin-bottom: 0px;
@@ -383,7 +384,7 @@ body {
       display: flex;
       flex-wrap: wrap;
       gap: 5px;
-      width: 450px;
+      max-width: 450px;
       padding-left: 0px;
     }
     li {
@@ -412,7 +413,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: left;
-  width: 500px;
+  max-width: 500px;
   min-height: 150px;
   margin-bottom: 15px;
   h3 {
@@ -421,13 +422,13 @@ body {
   .exp-sub {
     display: flex;
     justify-content: space-between;
-    width: 955px;
+    max-width: 955px;
   }
   .exp {
     display: flex;
     justify-content: top;
     flex-direction: row;
-    width: 500px;
+    max-width: 500px;
   }
   .exp-text {
     margin-bottom: 0px;
@@ -461,10 +462,9 @@ body {
   display: flex;
   flex-direction: column;
   text-align: left;
-  width: 500px;
+  max-width: 500px;
   min-height: 150px;
   margin-bottom: 15px;
-  margin-left: 50px;
   h3 {
     font-size: 18px;
   }
@@ -476,9 +476,8 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 500px;
+  max-width: 500px;
   min-height: 150px;
-  margin-left: 50px;
   margin-bottom: 15px;
   h3 {
     font-size: 18px;
@@ -490,7 +489,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    width: 500px;
+    max-width: 500px;
   }
   .hob {
     display: flex;
@@ -498,7 +497,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
-    width: 50px;
+    max-width: 50px;
   }
   .hob-text {
     margin-bottom: 0px;
@@ -524,5 +523,167 @@ body {
   }
   .fa-solid {
     font-size: 40px;
+  }
+
+}
+
+/* RESPONSIVE */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .subset-top {
+    flex-direction: column;
+  }
+  .subset-middle {
+    flex-direction: column;
+  }
+  .subset-bottom {
+    flex-direction: column;
+  }
+  .resume-full {
+    flex-direction: column;
+  }
+  .resume-full .resume-details {
+    margin-left: 0px;
+  }
+  .project-sub {
+    flex-direction: column;
+  }
+  .skills {
+    margin-left: 0px;
+  }
+  .bottom-right {
+    margin-left: 0px;
+  }
+  .hobbies .hob-sub {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .subset-top {
+    flex-direction: column;
+  }
+  .subset-middle {
+    flex-direction: column;
+  }
+  .subset-bottom {
+    flex-direction: column;
+  }
+  .resume-full {
+    flex-direction: column;
+  }
+  .resume-full .resume-details {
+    margin-left: 0px;
+  }
+  .project-sub {
+    flex-direction: column;
+  }
+  .skills {
+    margin-left: 0px;
+  }
+  .bottom-right {
+    margin-left: 0px;
+  }
+  .hobbies .hob-sub {
+    flex-direction: row;
+    text-align: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .subset-top {
+    flex-direction: column;
+  }
+  .subset-middle {
+    flex-direction: column;
+  }
+  .subset-bottom {
+    flex-direction: column;
+  }
+  .resume-full {
+    flex-direction: row;
+  }
+  .resume-full .resume-details {
+    margin-left: 20px;
+  }
+  .project-sub {
+    flex-direction: column;
+  }
+  .skills {
+    margin-left: 0px;
+  }
+  .bottom-right {
+    margin-left: 0px;
+  }
+  .hobbies .hob-sub {
+    flex-direction: row;
+    text-align: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .subset-top {
+    flex-direction: column;
+  }
+  .subset-middle {
+    flex-direction: column;
+  }
+  .subset-bottom {
+    flex-direction: column;
+  }
+  .resume-full {
+    flex-direction: row;
+  }
+  .resume-full .resume-details {
+    margin-left: 20px;
+  }
+  .project-sub {
+    flex-direction: column;
+  }
+  .skills {
+    margin-left: 0px;
+  }
+  .bottom-right {
+    margin-left: 0px;
+  }
+  .hobbies .hob-sub {
+    flex-direction: row;
+    text-align: center;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .subset-top {
+    flex-direction: row;
+  }
+  .subset-middle {
+    flex-direction: row;
+  }
+  .subset-bottom {
+    flex-direction: row;
+  }
+  .resume-full {
+    flex-direction: row;
+  }
+  .resume-full .resume-details {
+    margin-left: 20px;
+  }
+  .project-sub {
+    flex-direction: row;
+  }
+  .skills {
+    margin-left: 50px;
+  }
+  .bottom-right {
+    margin-left: 50px;
+  }
+  .hobbies .hob-sub {
+    flex-direction: row;
+    text-align: center;
   }
 }
