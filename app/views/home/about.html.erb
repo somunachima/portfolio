@@ -25,10 +25,10 @@
             </div>
           </div>
         </div>
-        <div class="container-middle">
-          <div class="container-left">
-            <div class="som-detes">
-              <div class="background">
+        <div class="row">
+          <%# <div class="container-left"> %>
+            <%# <div class="som-detes"> %>
+              <div class="column">
                 <div class="about-profile">
                 <%= image_tag asset_path('present.png'), height: 300, width: 220 %>
                 <h3>About</h3>
@@ -46,7 +46,7 @@
                 </div>
               </div>
 
-              <div class="pictures">
+              <div class="column">
                 <div class="about-profile">
                 <div class="icon-img">
                   <i class="fa-solid fa-laptop"></i>
@@ -59,11 +59,11 @@
                 </div>
                 <%= image_tag asset_path('fitz.png'), height: 300, width: 230 %>
               </div>
-            </div>
-          </div>
+            <%# </div> %>
+          <%# </div> %>
 
-          <div class="container-right">
-            <div class="likes">
+          <%# <div class="container-right"> %>
+            <div class="column">
               <div class="about-profile">
               <h3>What I Like</h3>
               <p class="som-about">As well as coding in my spare time, I like...</p>
@@ -85,7 +85,7 @@
               </div>
               <%= image_tag asset_path('sunflower.png'), height: 300, width: 230 %>
             </div>
-            <div class="learning">
+            <div class="column">
               <%= image_tag asset_path('still.png'), height: 300, width: 230 %>
               <div class="about-profile">
               <h3>What I'm Learning</h3>
@@ -101,7 +101,7 @@
               </div>
               <%= image_tag asset_path('gaia.png'), height: 300, width: 230 %>
             </div>
-          </div>
+          <%# </div> %>
         </div>
       </div>
       <div class="video-container">
