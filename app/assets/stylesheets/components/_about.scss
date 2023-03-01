@@ -92,7 +92,12 @@ body {
   justify-content: left;
   text-align: left;
   flex-direction: column;
-  min-height: 90px;
+  min-height: 50%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  animation: fadeIn;
+  animation-duration: 5s;
   .slogan {
     width: 100%;
   }
@@ -100,6 +105,10 @@ body {
     font-size: 60px;
     margin: 0px;
     width: 100%;
+  }
+  .mini {
+    font-size: 20px;
+    width: 70%;
   }
   .about-name {
     color: #FF6855;
@@ -134,6 +143,11 @@ body {
 .column {
   width: 100%;
 
+  .about {
+    animation: fadeIn;
+    animation-duration: 7s;
+  }
+
   h3 {
     color: #0F1014;
     font-size: 18px;
@@ -152,6 +166,10 @@ body {
     margin-top: 20px;
     margin-bottom: 10px;
     margin-right: 0px;
+  }
+  .about-2 {
+    animation: fadeIn;
+    animation-duration: 9s;
   }
 }
 
@@ -200,6 +218,10 @@ body {
 .column {
   width: 100%;
   margin-top: 20px;
+  .about-3 {
+    animation: fadeIn;
+    animation-duration: 10s;
+  }
   h3 {
     color: #0F1014;
     font-size: 18px;
@@ -235,7 +257,10 @@ body {
 .column {
   width: 100%;
   margin-top: 20px;
-
+  .about-4 {
+    animation: fadeIn;
+    animation-duration: 11s;
+  }
   h3 {
     color: #0F1014;
     font-size: 18px;
