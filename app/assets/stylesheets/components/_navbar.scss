@@ -1,5 +1,8 @@
 .navbar {
   width: 100%;
+
+  animation: fadeInDown;
+  animation-duration: 3s;
 }
 .navbar-lewagon {
   background-color: white;
