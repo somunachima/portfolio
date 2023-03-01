@@ -21,28 +21,30 @@ body {
   flex-direction: column;
   height: 100%;
   width: 80%;
-  // padding-top: 35px;
+  padding-top: 40px;
+  padding-bottom: 60px;
   padding-left: 0px;
-  // padding-right: 45px;
-  padding-bottom: 20px;
-  // margin: auto;
   margin-left: 45px;
+
+  animation: fadeIn;
+  animation-duration: 5s;
   .resume-title {
-    font-size: 60px;
+    font-size: 20px;
     margin: 0px;
-    width: 100%;
+    width: 70%;
+
   }
 
   .resume-name {
-    font-size: 28px;
+    font-size: 60px;
     font-weight: 500;
-    color: #0F1014;
     margin: 0px;
     width: 100%;
-  }
-  .create {
     color: #FF6855;
-    text-decoration: none;
+  }
+  .mini {
+    font-size: 20px;
+    width: 70%;
   }
   .btn-email {
     margin-top: 10px;
@@ -85,6 +87,9 @@ body {
   align-items: left;
   justify-content: left;
   flex-direction: column;
+
+  animation: fadeIn;
+  animation-duration: 8s;
   h3 {
     color: #0F1014;
     font-size: 18px;
@@ -146,6 +151,9 @@ body {
 .subset-top {
   display: flex;
   flex-direction: row;
+
+  animation: fadeIn;
+  animation-duration: 11s;
 }
 
 .subset-middle {
@@ -153,11 +161,17 @@ body {
   flex-direction: row;
   border-bottom: 0.5px solid #C4C5C9;
   margin-bottom: 10px;
+
+  animation: fadeIn;
+  animation-duration: 14s;
 }
 
 .subset-bottom {
   display: flex;
   flex-direction: row;
+
+  animation: fadeIn;
+  animation-duration: 16s;
 }
 .bottom-left {
   display: flex;
