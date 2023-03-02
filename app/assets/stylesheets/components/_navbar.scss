@@ -1,5 +1,8 @@
+.container-fluid {
+  // width: 95%;
+}
 .navbar {
-  width: 100%;
+  width: 100vh;
 
   animation: fadeIn;
   animation-duration: 3s;
@@ -58,5 +61,7 @@
   font-size: 15px;
 }
 #email {
-  padding-top: 7px;
+  padding: 8px;
+  font-family: var(--font-inter);
+  font-size: 15px;
 }

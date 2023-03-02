@@ -44,7 +44,7 @@ body {
   }
   .mini {
     font-size: 20px;
-    width: 70%;
+    width: 85%;
   }
   .btn-email {
     margin-top: 10px;
@@ -225,7 +225,7 @@ body {
   }
   .manc-text {
     margin-bottom: 0px;
-    width: 100%;
+    // width: 93vh;
   }
   .manc-title {
     display: flex;
@@ -329,7 +329,18 @@ body {
   display: flex;
   .skills-title {
     font-weight: 350;
-    max-width: 70px
+    // max-width: 70px
+    width: 57px;
+  }
+  .skills-title-tools {
+    font-weight: 350;
+    width: 57px;
+    margin-right: 22px;
+  }
+  .skills-title-strat {
+    font-weight: 350;
+    width: 57px;
+    margin-right: 4px;
   }
   ul {
     display: flex;
@@ -569,7 +580,9 @@ body {
   .bottom-right {
     margin-left: 0px;
   }
-
+  .manc-text {
+    width: 55vh;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -598,7 +611,9 @@ body {
   .bottom-right {
     margin-left: 0px;
   }
-
+  .manc-text {
+    width: 93vh;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -627,7 +642,9 @@ body {
   .bottom-right {
     margin-left: 0px;
   }
-
+  .manc-text {
+    width: 93vh;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -656,7 +673,9 @@ body {
   .bottom-right {
     margin-left: 0px;
   }
-
+  .manc-text {
+    width: 93vh;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -684,5 +703,20 @@ body {
   .bottom-right {
     margin-left: 50px;
   }
+  .manc-text {
+    width: 83vh;
+  }
 
+}
+
+@media only screen and (min-width: 1348px) {
+  .manc-text {
+    width: 93vh;
+  }
+}
+
+@media only screen and (min-width: 1381.6px) {
+  .manc-text {
+    width: 83vh;
+  }
 }
