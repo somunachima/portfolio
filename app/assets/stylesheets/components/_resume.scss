@@ -225,7 +225,7 @@ body {
   }
   .manc-text {
     margin-bottom: 0px;
-    // width: 93vh;
+    // min-width: 200px;
   }
   .manc-title {
     display: flex;
@@ -374,12 +374,18 @@ body {
   }
   .project-sub {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    align-items: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    gap: 5px;
   }
   .proj {
     display: flex;
     flex-direction: row;
     margin-right: 10px;
+    max-width: 300px;
   }
   .proj-info {
     margin-bottom: 8px;
@@ -572,7 +578,7 @@ body {
     margin-left: 0px;
   }
   .project-sub {
-    flex-direction: column;
+    // flex-direction: column;
   }
   .skills {
     margin-left: 0px;
@@ -581,7 +587,7 @@ body {
     margin-left: 0px;
   }
   .manc-text {
-    width: 55vh;
+    // width: 68vw;
   }
 }
 
@@ -603,7 +609,7 @@ body {
     margin-left: 0px;
   }
   .project-sub {
-    flex-direction: column;
+    // flex-direction: column;
   }
   .skills {
     margin-left: 0px;
@@ -612,7 +618,7 @@ body {
     margin-left: 0px;
   }
   .manc-text {
-    width: 93vh;
+    // min-width: 60vw;
   }
 }
 
@@ -634,7 +640,7 @@ body {
     margin-left: 20px;
   }
   .project-sub {
-    flex-direction: column;
+    // flex-direction: column;
   }
   .skills {
     margin-left: 0px;
@@ -643,7 +649,7 @@ body {
     margin-left: 0px;
   }
   .manc-text {
-    width: 93vh;
+    // width: 48vw;
   }
 }
 
@@ -665,7 +671,7 @@ body {
     margin-left: 20px;
   }
   .project-sub {
-    flex-direction: column;
+    // flex-direction: column;
   }
   .skills {
     margin-left: 0px;
@@ -674,7 +680,7 @@ body {
     margin-left: 0px;
   }
   .manc-text {
-    width: 93vh;
+    // width: 53vw;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -695,7 +701,7 @@ body {
     margin-left: 20px;
   }
   .project-sub {
-    flex-direction: row;
+    // flex-direction: row;
   }
   .skills {
     margin-left: 50px;
@@ -704,19 +710,19 @@ body {
     margin-left: 50px;
   }
   .manc-text {
-    width: 83vh;
+    // width: 33vw;
   }
 
 }
 
 @media only screen and (min-width: 1348px) {
   .manc-text {
-    width: 93vh;
+    // width: 33vw;
   }
 }
 
 @media only screen and (min-width: 1381.6px) {
   .manc-text {
-    width: 83vh;
+    // width: 33vw;
   }
 }
