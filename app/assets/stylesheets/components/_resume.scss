@@ -569,10 +569,7 @@ body {
   .bottom-right {
     margin-left: 0px;
   }
-  .hobbies .hob-sub {
-    flex-direction: column;
-    text-align: center;
-  }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -601,10 +598,7 @@ body {
   .bottom-right {
     margin-left: 0px;
   }
-  .hobbies .hob-sub {
-    flex-direction: row;
-    text-align: center;
-  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -633,10 +627,7 @@ body {
   .bottom-right {
     margin-left: 0px;
   }
-  .hobbies .hob-sub {
-    flex-direction: row;
-    text-align: center;
-  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -665,10 +656,7 @@ body {
   .bottom-right {
     margin-left: 0px;
   }
-  .hobbies .hob-sub {
-    flex-direction: row;
-    text-align: center;
-  }
+
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -696,8 +684,5 @@ body {
   .bottom-right {
     margin-left: 50px;
   }
-  .hobbies .hob-sub {
-    flex-direction: row;
-    text-align: center;
-  }
+
 }
