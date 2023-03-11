@@ -1,21 +1,10 @@
 ### Hey I’m Som! 👩🏾‍💻
-This is my portfolio website which I designed and built from scratch using Ruby on Rails! ♦️
+This is my fully responsive portfolio website which I designed and built from scratch using Ruby on Rails! ♦️
 
-## About Me
-**I'm a full-stack software engineer based just outside of London, UK 😁**
+## Website: https://www.somunachima.com/
 
-- 👟 Currently working on an awesome 3D animation website, Sneaker Heads 🔥
-- 🌱 Learning **React.js**, **Next.js**, **Three.js** and **TypeScript**
-- 🚀 I created:
-    - 🩻  [scanHer](https://www.scanher.co.uk/) (with a team!)
-    - ✍️ [Productivity Planner](https://productivity-planner-sigma.vercel.app/)
-    - 🧃 [Anime Shoutouts](https://anime-shoutouts.vercel.app/)
-    - 🍩 [Go Donuts](https://somunachima.github.io/threejs-donut/)
-    - 📚 [Get Your Own Teaching Assistant](https://github.com/AranSeehra/gyota) (also with a team!)
-    - 💻 I code using `.rb`, `.js`, `.tsx`, `.html`, `.css` 
-    
-- 👀 And actively looking for a full stack developer role
-- 📫 Contact me on [**LinkedIn**](https://www.linkedin.com/in/somakudu/)
-- ✨ Check out my [**website**](https://www.somunachima.com/)
-- 📧 Or **email me** at somakudu@gmail.com
-- 🤗 Fun fact: I paint and draw illustrations! 🎨 
+## Challenges
+I had an issue intially with my gemfile and was previously using SQLlite for my database rather than PostgreSQL so when it came to launching it on Heroku, the logs kept coming up with errors so I had to relaunch the app to get the initial foundations of my app app correct and get rid of these errors. 
+
+## Next Steps
+I eventually solved and launched the app on Heroku with no issues using PostgreSQL. I plan to include a blog in future where people can add comments on blog posts which is why I built the app using a Rails app with a database initially rather than using just HTML and CSS.
