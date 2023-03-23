@@ -537,7 +537,7 @@ body {
     justify-content: top;
     flex-direction: column;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 18px;
     max-width: 50px;
   }
   .hob-text {
@@ -558,12 +558,13 @@ body {
   .hob-name {
     margin-bottom: 0px;
     text-align: center;
+    font-size: 12px;
   }
   .fa-dumbbell {
-    font-size: 40px;
+    font-size: 20px;
   }
   .fa-solid {
-    font-size: 40px;
+    font-size: 20px;
   }
 
 }
