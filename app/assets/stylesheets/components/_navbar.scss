@@ -39,13 +39,13 @@
     align-items: center;
   }
   .nav-item.active {
-    padding-left: 3px;
+    padding-left: 0px;
 
   }
   .nav-item i {
     align-items: center;
     padding-top: 12px;
-    padding-left: 15px;
+    padding-left: 12px;
   }
 }
 
@@ -61,7 +61,7 @@
   font-size: 15px;
 }
 #email {
-  padding: 8px;
+  padding: 8px 5px;
   font-family: var(--font-inter);
   font-size: 15px;
 }
