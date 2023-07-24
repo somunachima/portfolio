@@ -37,14 +37,14 @@ body, html {
   }
 
   .resume-name {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 500;
     margin: 0px;
     width: 100%;
     color: #FF6855;
   }
   .mini {
-    font-size: 20px;
+    font-size: 16px;
     width: 100%;
   }
   .btn-email {
@@ -55,7 +55,7 @@ body, html {
     text-decoration: none;
     transition: all 0.3s;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 12px;
   }
   .btn-email a:hover {
     color: #FF6855;
@@ -116,7 +116,6 @@ body, html {
   text-align: left;
   flex-direction: row;
   min-height: 100px;
-  // min-width: 1560px;
   padding: 35px;
   padding-left: 0px;
   padding-right: 25px;

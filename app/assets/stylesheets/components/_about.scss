@@ -69,8 +69,6 @@ body, html {
 }
 .column {
   max-width: 25%;
-  // max-height: 100%;
-  // margin-right: 12px;
   flex: 25%;
   .fa-solid {
     font-size: 90px;
@@ -113,12 +111,13 @@ body, html {
     width: 100%;
   }
   .mini {
-    font-size: 20px;
-    width: 70%;
+    font-size: 16px;
+    width: 100%;
   }
   .about-name {
     color: #FF6855;
     text-decoration: none;
+    font-size: 55px;
   }
   .btn-about {
     margin-top: 10px;
@@ -129,10 +128,29 @@ body, html {
     text-decoration: none;
     transition: all 0.3s;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 12px;
   }
   .btn-about a:hover {
     color: #FF6855;
+  }
+  .font-serif a {
+    text-decoration: none;
+  }
+  .text-google-blue {
+    color: #4884ED;
+    font-weight: 600;
+  }
+  .text-google-red {
+    color: #DB3236;
+    font-weight: 600;
+  }
+  .text-google-yellow {
+    color: #F4C20D;
+    font-weight: 600;
+  }
+  .text-google-green {
+    color: #3CBA54;
+    font-weight: 600;
   }
 }
 
