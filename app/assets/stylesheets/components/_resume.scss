@@ -141,6 +141,41 @@ body, html {
     margin-right: 10px;
     margin-top: 3px;
   }
+
+  .som-info a {
+    color: #0F1014;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-weight: 350;
+    font-size: 12px;
+  }
+  .som-info a:hover {
+    color: #FF6855;
+  }
+
+  .font-serif a {
+    text-decoration: none;
+  }
+  .text-google-blue {
+    color: #4884ED;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .text-google-red {
+    color: #DB3236;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .text-google-yellow {
+    color: #F4C20D;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .text-google-green {
+    color: #3CBA54;
+    font-weight: 600;
+    font-size: 13px;
+  }
 }
 
 //SUBSETS of SKILLS & EXPERIENCE etc
@@ -220,6 +255,7 @@ body, html {
   .edu-proj {
     text-decoration: none;
     text-emphasis: none;
+    transition: all 0.3s;
     color: #0F1014;
     margin-bottom: 0px;
     font-weight: 500;
@@ -299,6 +335,7 @@ body, html {
   .ijpp-date {
     text-decoration: none;
     text-emphasis: none;
+    transition: all 0.3s;
     color: #0F1014;
     margin-bottom: 0px;
   }
@@ -441,6 +478,7 @@ body, html {
   .proj-link {
     text-decoration: none;
     text-emphasis: none;
+    transition: all 0.3s;
     color: #0F1014;
     margin-bottom: 0px;
   }
@@ -589,17 +627,11 @@ body, html {
   .resume-full .resume-details {
     margin-left: 0px;
   }
-  .project-sub {
-    // flex-direction: column;
-  }
   .skills {
     margin-left: 0px;
   }
   .bottom-right {
     margin-left: 0px;
-  }
-  .manc-text {
-    // width: 68vw;
   }
 }
 
@@ -620,17 +652,11 @@ body, html {
   .resume-full .resume-details {
     margin-left: 0px;
   }
-  .project-sub {
-    // flex-direction: column;
-  }
   .skills {
     margin-left: 0px;
   }
   .bottom-right {
     margin-left: 0px;
-  }
-  .manc-text {
-    // min-width: 60vw;
   }
 }
 
@@ -651,17 +677,11 @@ body, html {
   .resume-full .resume-details {
     margin-left: 20px;
   }
-  .project-sub {
-    // flex-direction: column;
-  }
   .skills {
     margin-left: 0px;
   }
   .bottom-right {
     margin-left: 0px;
-  }
-  .manc-text {
-    // width: 48vw;
   }
 }
 
@@ -682,18 +702,13 @@ body, html {
   .resume-full .resume-details {
     margin-left: 20px;
   }
-  .project-sub {
-    // flex-direction: column;
-  }
   .skills {
     margin-left: 0px;
   }
   .bottom-right {
     margin-left: 0px;
   }
-  .manc-text {
-    // width: 53vw;
-  }
+
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -712,29 +727,12 @@ body, html {
   .resume-full .resume-details {
     margin-left: 20px;
   }
-  .project-sub {
-    // flex-direction: row;
-  }
+
   .skills {
     margin-left: 50px;
   }
   .bottom-right {
     margin-left: 50px;
   }
-  .manc-text {
-    // width: 33vw;
-  }
 
-}
-
-@media only screen and (min-width: 1348px) {
-  .manc-text {
-    // width: 33vw;
-  }
-}
-
-@media only screen and (min-width: 1381.6px) {
-  .manc-text {
-    // width: 33vw;
-  }
 }
